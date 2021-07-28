@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guvi Task 7</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 class="head">English Dictionary API</h1>
+    <input
+      type="text"
+      name="box"
+      id="word"
+      placeholder="Enter the word"
+      autocomplete="off"
+      onfocus="this.value=''"
+      required
+    />
+    <input type="submit" value="Search" onclick="search()" id="myBtn" />
+    <div class="container" id="container"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>

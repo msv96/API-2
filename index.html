@@ -9,16 +9,18 @@
   </head>
   <body>
     <h1 class="head">English Dictionary API</h1>
-    <input
-      type="text"
-      name="box"
-      id="word"
-      placeholder="Enter the word"
-      autocomplete="off"
-      onfocus="this.value=''"
-      required
-    />
-    <input type="submit" value="Search" onclick="search()" id="myBtn" />
+    <div class="searchBox">
+      <input
+        type="text"
+        name="box"
+        id="word"
+        class="box1"
+        placeholder="Enter the word"
+        autocomplete="off"
+        onfocus="this.value=''"
+      /><br>
+      <button type="submit" id="myBtn" class="box2" onclick="search()">Search</button>
+    </div>
     <div class="container" id="container"></div>
     <script src="./script.js"></script>
   </body>
